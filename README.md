@@ -4,7 +4,7 @@
 ## Run httpcat
 
 ```
-docker run --rm -p 80:80 narate/httpcat
+docker run --rm -it -p 80:80 narate/httpcat
 ```
 
 ## Example
