@@ -37,3 +37,10 @@ Hello, World!
 ```
 docker run --rm -it --net=host -e PORT=8000 narate/httpcat
 ```
+
+- HOST
+
+```
+docker run --rm -it --net=host -e HOST=127.0.0.1 -e PORT=8000 narate/httpcat
+```
+
